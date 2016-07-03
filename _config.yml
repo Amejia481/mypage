@@ -1,0 +1,45 @@
+# Site settings
+title: Arturo Mejia
+email: arturomejiamarmol@gmail.com
+url: https://example.github.io
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+skills: "Android Developer - Mobile Developer"
+meta_author: LastName FirstName
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://do.linkedin.com/in/arturomejiamarmol/en
+  - title: github
+    url: http://github.com/Amejia481
+  - title: stack-overflow
+    url: http://stackoverflow.com/users/5533820/arturo-mejia
+  - title: twitter
+    url: https://twitter.com/arturomejia481
+  - title: youtube
+    url: https://www.youtube.com/channel/UCgndqwYZkqI1mJKwOktz9lQ
+  
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Dominican Republic
+  - line: Santo Domingo, D.N
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty

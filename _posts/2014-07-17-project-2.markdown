@@ -1,0 +1,17 @@
+---
+title: Cabanas RD Apps
+layout: default
+modal-id: 2
+date: 2014-07-17
+img: cabana_rd_mini.png
+show_modal_img: 1
+modal_img: cabana_rd_modal.png
+alt: image-alt
+project-date: January 2015
+client: non-profit
+category: Android(Java) and iOS(Swift)
+description: <a href="http://cabanasrd.com.do/en">Cabañas RD</a> is a tool for finding hotels or motels in the Dominican Republic, you can get info such as; prices, pictures, rating, directions and more. This app is one of the most popular once in the D.R with more than 10 thousand downloads on Google Play Store and 4.6 stars. For many times it has been on top positions; furthermore, all its cloud services are fully backed by <a href="https://www.microsoft.com/bizspark">Microsoft BizSpark startups program</a>. <br/> <br/><strong><u>Technologies that works</u></strong><br/> ★ Azure Cloud Services. <br/> ★ Native Android (Java). <br/> ★ Native iOS Swift. <br/> ★ API REST (Built on ASP.NET MVC 5). <br/> ★ Integrate with admob (AdMob is a mobile advertising ) <br/> ★ Google analytics (User Mobile App Analytics measures) <br/> ★ Google Map API <br/> ★ Have Offline Support.<p><a href="https://play.google.com/store/apps/details?id=com.cabanasrd">Play Store</a>, <a href="hhttps://itunes.apple.com/us/app/cabanas-rd/id985646833?l=es&ls=1&mt=8">Apple Store</a> and <a href="http://cabanasrd.com.do/app/">Web Mobile</a></p><p>The source code is available on github.</p><ul> <li><a href="https://github.com/Amejia481/CabanasRD">Android</a></li> <li><a href="https://github.com/Amejia481/CabanasRDIOSAPP/">iOS</a></li> <li><a href="https://github.com/cabanasrd/cabanasrd.github.io">Landing page.</a></li>   </ul><p> You can find more info <a href="http://cabanasrd.com.do/en">here</a></p>  
+
+---
+
+
