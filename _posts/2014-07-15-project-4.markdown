@@ -1,0 +1,15 @@
+---
+title: Wapa TV Android app
+layout: default
+modal-id: 4
+date: 2014-07-17
+img: cake.png
+show_modal_img: 1
+modal_img: wapa_full.JPG
+alt: image-alt
+project-date: October 2015
+client: Rocanrol, Puerto Rico
+category: Android(Java)
+description: This application give you access to the Wapa TV  channel content; video clips and news coverage.<br/><br/>My participation in this project was to coordinate and perform the necessary tasks to meet the needs expressed by Luis Roca, to enhancement the actual application<br/><br/> <a href="https://play.google.com/store/apps/details?id=com.wapa.app">Download in the Play Store</a>
+
+---
