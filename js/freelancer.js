@@ -3,7 +3,12 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+//Handling opening a popup to a direct item of the portfolio
+$(function() {
+    if (window.location.hash && $(window.location.hash).length && window.location.hash.search('portfolioModal') == 1) {
+        $(window.location.hash).modal('show');
+    }
+});
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
