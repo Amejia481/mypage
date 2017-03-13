@@ -1,0 +1,100 @@
+<html ng-app="sampleApp">
+
+  <head>
+  <meta charset="utf-8">
+	<!-- Angular -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+
+	<!-- Firebase -->
+	<script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+
+	<!-- AngularFire -->
+	<script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+  </head>
+ 
+  <body ng-controller="SampleCtrl">
+  
+	<div >
+	  <h1>Firebase Buses Demo Status: {{demoStatus}}</h2>
+	</div>
+    
+ <script>
+	var  databaseURL =  "https://itla-busses.firebaseio.com/";
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyC6c3hk3xsOt6KTYkPVs8f42lzMkgycVnM",
+        authDomain: "itla-busses.firebaseapp.com",
+        databaseURL:databaseURL,
+        storageBucket: ""
+    };
+    firebase.initializeApp(config);
+ 
+	
+	var app = angular.module("sampleApp", ["firebase"]);
+		
+		app.controller("SampleCtrl", function($scope, $firebaseObject,$interval) {
+		  var ref = firebase.database().ref(); //.child("busses").child("27_FEBRERO");
+		  // create a synchronized array
+		  $scope.demoStatus = "";
+		  var obj =  $firebaseObject(ref);
+			obj.$bindTo($scope,"busses")
+			  .then(function() {
+				$scope.demoStatus = "Running"
+				runDemo();
+			  })
+			  .catch(function(err) {
+				console.log(err);
+			  });
+
+
+
+			function runDemo(){
+				var fakeLocationsBus = [
+				{"latitude":18.474209,"longitude": -69.917522},
+				{"latitude":18.475349,"longitude": -69.915762},
+				{"latitude":18.476163,"longitude": -69.913573},
+				{"latitude":18.475674,"longitude": -69.907651},
+				{"latitude":18.476325,"longitude": -69.905162},
+				{"latitude":18.477465,"longitude": -69.903746},
+				{"latitude":18.478646,"longitude": -69.900570},
+				{"latitude":18.479826,"longitude": -69.897866},
+				{"latitude":18.481576,"longitude": -69.896708},
+				{"latitude":18.482594,"longitude": -69.894261},
+				{"latitude":18.484059,"longitude": -69.891171},
+				{"latitude":18.485127,"longitude": -69.889615},
+				{"latitude":18.486145,"longitude": -69.888070},
+				{"latitude":18.486735,"longitude": -69.885710},
+				{"latitude":18.486755,"longitude": -69.883425},
+				{"latitude":18.486430,"longitude": -69.880517}]
+				
+				var lastItemPosition = 0;
+
+				
+					
+					
+					$interval(function(){
+					
+					if(lastItemPosition == fakeLocationsBus.length)
+						lastItemPosition = 0;
+						
+					var item =  fakeLocationsBus[lastItemPosition];
+					var lastItem =	(lastItemPosition == 0) ?  fakeLocationsBus[0] : fakeLocationsBus[lastItemPosition-1];
+						console.log(item)
+
+
+						$scope.busses.busses["CHARLES"].latitude = lastItem.latitude;
+						$scope.busses.busses["CHARLES"].longitude = lastItem.longitude;
+						$scope.busses.busses["CHARLES"].created = firebase.database.ServerValue.TIMESTAMP;
+						
+
+						$scope.busses.busses["27_FEBRERO"].latitude = item.latitude;
+						$scope.busses.busses["27_FEBRERO"].longitude = item.longitude;
+						$scope.busses.busses["27_FEBRERO"].created = firebase.database.ServerValue.TIMESTAMP;
+						++lastItemPosition;
+					}, 3000);
+			}
+	
+		});
+  </script>
+  </body>
+</html>
