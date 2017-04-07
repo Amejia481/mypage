@@ -23,14 +23,14 @@
                     <div class="col-lg-12 text-center">
                         <h4><u>TALKS</u></h4>
                         <div  class="text-center">
-                            <p class="talk">-<a href="http://droidcon.do/">DroidCon</a> Santo Domingo Mar 3th 2017  <a href="https://speakerdeck.com/amejia481/android-development-the-right-mindset-droidcon-santo-domingo">[Android development the right mindset]</a><p>    
-                            <p class="talk">-Google I/O Extended ITLA May 18th 2016  <a href="https://www.eventbrite.com/e/google-io-extended-itla-tickets-25177241808#">[Intro to FireBase]</a><p>    
-                            <p class="talk">-<a href="http://codecampsdq.com/">CodeCampSDQ 5.0</a> Santo Domingo Jan 30th 2016  <a href="http://codecampsdq.com/?page_id=7#itinerario">[From Zero to an Android expert]</a><p>    
+                             {% assign talks = (site.talks | sort: 'date') | reverse %}
+                            {% for talk in talks %}
+                                    <p class="talk">-<a href="{{talk.conference_url}}">{{talk.conference_name}}</a> {{talk.conference_location}} {{talk.conference_date}}  <a href="{{talk.presentation_url}}">[{{talk.talk_name}}]</a><p>
+                            {% endfor %}
                         </div>
                     </div>
-                    
                 </div>
 
             </div>
-        </div> 
+        </div>
     </section>

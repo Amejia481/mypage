@@ -32,7 +32,7 @@ social:
     url: https://twitter.com/arturomejia481
   - title: youtube
     url: https://www.youtube.com/channel/UCgndqwYZkqI1mJKwOktz9lQ
-  
+
 
 # Postal address (add as many lines as necessary)
 address:
@@ -43,3 +43,6 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+- talks
