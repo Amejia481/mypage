@@ -1,0 +1,27 @@
+---
+title: Skitude Weather Feature
+layout: default
+modal-id: 6
+date: 2017-09-27
+img: skitude_mini.png
+modal_img: false
+show_modal_img: 0
+alt: Skitude Weather Feature
+project-date: Sep 2017-Dec 2017
+client: <a href="http://www.skitude.com/en" target="_blank">Skitude</a>
+category: Native Android(Java)
+description: <iframe  width="650" height="315" src="https://drive.google.com/file/d/0B62_qXBNx5M-ZFB1WjhMYko3NW8/preview" frameborder="0" allowfullscreen></iframe><br/><br/> <a target="_blank" href="https://play.google.com/store/apps/details?id=com.blabsolutions.Skitude">Skitude</a> is an app for ski, snowboard, and outdoor activities fans. As a contractor for <a href="http://www.skitude.com/en" target="_blank">Skitude Technologies</a> my duty was to develop a weather feature for the already made Android App from a <a href="https://projects.invisionapp.com/share/Z3DSEKXTB" target="_blank">mockup</a>. .<br/><br/><strong><u>I developed the app using</u></strong><br/> ★ <a href="https://www.pluralsight.com/courses/writing-clean-code-humans" target="_blank">Clean code best practices</a> <br/> ★ Vector Drawables. <br/> ★ <a href="https://bumptech.github.io/glide/" target="_blank"> Glide</a>(Image library) <br/> ★  <a target="_blank"href="https://developer.android.com/training/volley/index.html">Volley</a>(Network library)<p> <div>  <img src="img/portfolio/skitude_1.png" class="img-responsive img-centered" alt="image-alt"/><img src="img/portfolio/skitude_2.png" class="img-responsive img-centered" alt="image-alt"/><a target="_blank" href ="https://play.google.com/store/apps/details?id=com.blabsolutions.Skitude"><img src="img/portfolio/download_android.png" class="img-responsive img-centered" alt="image-alt"/></a><div>
+                <blockquote class="blockquote">
+                    <p class="mb-0"> Good professional and comunicator. Nice and clean code, adaptable to the needs of our company, and to
+                        the daily changes of the project. Great expereince in UpWork.
+                    </p>
+                    <footer class="blockquote-footer">
+                        <a href="http://www.skitude.com/" target="_blank">Marc Soler, Skitude Technologies</a>.
+                        <cite title="Sep 2017-Dec 2017">Sep 2017-Dec 2017</cite>
+                    </footer>
+                </blockquote>
+            </div></div>  
+
+---
+
+
