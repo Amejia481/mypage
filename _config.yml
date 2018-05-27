@@ -35,9 +35,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Dominican Republic
-  - line: Santo Domingo, D.N
-
+  - line: Ontario, Canada.  
 
 # Build settings
 markdown: kramdown
