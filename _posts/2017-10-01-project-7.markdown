@@ -1,0 +1,28 @@
+---
+title: Zipline Android app
+layout: default
+modal-id: 7
+date: 2017-10-01
+img: zipline_mini.png
+modal_img: zipline_modal.jpg
+show_modal_img: 1
+alt: Zipline Android ap
+project-date: Oct 2017-Dec 2017
+client: <a href="https://retailzipline.com" target="_blank">Retail Zipline</a>
+category: Native Android(Kotlin)
+description: <a target="_blank" href="https://retailzipline.com/">Retail Zipline</a> is a <a target="_blank" href="https://en.wikipedia.org/wiki/Software_as_a_service">SaaS</a>  internal communication/workflow solution to help retailers optimize their profitability and store performance. As a contractor for <a href="https://retailzipline.com/" target="_blank">Retail Zipline</a>, my role was to build the Android app to simulate the same behavior as their website, from zero to push it to the Google Play Store.<strong><br/><br/<u>I developed the app using</u></strong><br/> ★ Kotlin<br/> ★ MVP (Model View Presenter) <br/> ★  <a target="_blank"href="https://ktlint.github.io/">Ktlint</a>(Kotlin linter)<br/> ★ <a target="_blank"href="http://www.javapractices.com/topic/TopicAction.do?Id=205">Package by feature</a> <br/> ★ JVM and UI tests using espresso<p> <br/> <div><img src="img/portfolio/zipline_1.png" class="img-responsive img-centered" alt="image-alt"/>
+    <img src="img/portfolio/zipline_2.png" class="img-responsive img-centered" alt="image-alt"/><a target="_blank" href="https://play.google.com/store/apps/details?id=com.retailzipline.mobile.zipline"> <img src="img/portfolio/download_android.png" class="img-responsive img-centered" alt="image-alt"/></a></div>        <div>
+                <blockquote class="blockquote ">
+                    <p>Arturo was a great contractor to work with and delivered quality work. His communication was top notch.
+                        Would hire again.
+                    </p>
+                    <footer class="blockquote-footer">
+                        <a href="https://www.crunchbase.com/person/jeremy-hubert" target="_blank">Jeremy Baker, Retail Zipline</a>.
+                        <cite title="Oct 2017-Dec 2017">Oct 2017-Dec 2017</cite>
+                    </footer>
+                </blockquote>
+            </div>
+
+---
+
+
