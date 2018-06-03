@@ -5,14 +5,28 @@
  */
 
 //Handling opening a popup to a direct item of the portfolio
-$(function() {
+$(function () {
     if (window.location.hash && $(window.location.hash).length && window.location.hash.search('portfolioModal') == 1) {
         $(window.location.hash).modal('show');
     }
+
+    $("div#talks #previous_talks").click(function () {
+        toggleTalksVisibility();
+        $(this).addClass("hide")
+    });
+
+    function toggleTalksVisibility() {
+        $("div#talks .talk").not("#previous_talks").each(function (index, item) {
+            if (index > 3)
+                $(item).toggleClass("hide")
+        })
+    }
+
+    toggleTalksVisibility()
 });
 // jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-    $('.page-scroll a').bind('click', function(event) {
+$(function () {
+    $('.page-scroll a').bind('click', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
@@ -22,12 +36,12 @@ $(function() {
 });
 
 // Floating label headings for the contact form
-$(function() {
-    $("body").on("input propertychange", ".floating-label-form-group", function(e) {
-        $(this).toggleClass("floating-label-form-group-with-value", !! $(e.target).val());
-    }).on("focus", ".floating-label-form-group", function() {
+$(function () {
+    $("body").on("input propertychange", ".floating-label-form-group", function (e) {
+        $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
+    }).on("focus", ".floating-label-form-group", function () {
         $(this).addClass("floating-label-form-group-with-focus");
-    }).on("blur", ".floating-label-form-group", function() {
+    }).on("blur", ".floating-label-form-group", function () {
         $(this).removeClass("floating-label-form-group-with-focus");
     });
 });
@@ -38,6 +52,6 @@ $('body').scrollspy({
 })
 
 // Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
+$('.navbar-collapse ul li a').click(function () {
     $('.navbar-toggle:visible').click();
 });

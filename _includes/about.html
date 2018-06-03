@@ -19,7 +19,7 @@
                    <br/>
                 </div>
 
-                <div class="row">
+                <div class="row" id="talks">
                     <div class="col-lg-12 text-center">
                         <h4><u>TALKS</u></h4>
                         <div  class="text-center">
@@ -27,6 +27,7 @@
                             {% for talk in talks %}
                                     <p class="talk">-<a target="_blank" href="{{talk.conference_url}}">{{talk.conference_name}}</a> {{talk.conference_location}} {{talk.conference_date}}  <a target="_blank" href="{{talk.presentation_url}}">[{{talk.talk_name}}]</a><p>
                             {% endfor %}
+                            <p id="previous_talks" class="talk_button"><strong><u>Previous</u></strong></p>
                         </div>
                     </div>
                 </div>
