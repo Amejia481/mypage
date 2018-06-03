@@ -1,0 +1,31 @@
+---
+title: Mid-Senior Android Developer
+layout: default
+modal-id: 8
+date: 2017-11-01
+img: eyeseetea_mini.png
+modal_img: eyeseetealogo.png
+show_modal_img: 1
+alt: Mid-Senior Android Developer
+project-date: Nov 2017-Apr 2018
+client: <a href="https://EyeSeeTea.com" target="_blank">EyeSeeTea</a>
+category: Native Android
+description: <a target="_blank" href="https://EyeSeeTea.com">EyeSeeTea</a> is a is UK based company that works primarily with Non-Governmental & Research Centers providing <a target="_blank" href="https://en.wikipedia.org/wiki/Information_and_communications_technology">ICT</a> services. My main duties were to maintain and develop new features for the Android apps for their clients. Their apps were targeting people in developing countries, for this reason, our commitment was to optimize them for working on old Android OS versions, unreliable Networks, low disk space, and minimum CPU usages). <p>Due to the company nature, most of their work is open-source; I've been working on the following repositories; <p>★The <a target="_blank" href="https://github.com/EyeSeeTea/pictureapp/tree/v1.0_connect">Pictureapp</a> is a base repository for multiple customers apps using <a target="_blank" href="https://developer.android.com/studio/build/build-variants.html">build variants</a> most of them to capture health and research information.</p><br/> <p>★The <a target="_blank" href="https://github.com/EyeSeeTea/dhis2-android-sdk/tree/development">dhi2-android-sdk</a> repository is an Android SDK for <a target="_blank" href="https://www.dhis2.org/">DHIS 2</a> health information system. In these repositories I’ve working with <a target="_blank" href="https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html">Clean Code Architecture</a>, <a target="_blank" href="https://www.versionone.com/agile-101/agile-software-programming-best-practices/">Agile practices</a>, tests (<a target="_blank" href="https://en.wikipedia.org/wiki/Test-driven_development">TDD</a>,<a target="_blank" href="https://developer.android.com/training/testing/unit-testing/local-unit-tests.html">JVM tests</a>, <a target="_blank" href="https://developer.android.com/training/testing/unit-testing/instrumented-unit-tests.html">instrumented Android test</a>, <a target="_blank" href="http://site.mockito.org/">Mockito</a> and <a target="_blank" href="https://github.com/square/okhttp/tree/master/mockwebserver">MockWebServer</a>), Continuous Integration practices using tools like <a target="_blank" href="https://travis-ci.org/">Travis CI</a>, Static Code Analysis tools like (<a target="_blank" href="https://pmd.github.io/">PMD</a> and <a target="_blank" href="http://findbugs.sourceforge.net/">FindBugs</a>) and popular Android libraries (<a target="_blank" href="http://square.github.io/okhttp/">OkHttp</a>, <a target="_blank" href="http://square.github.io/retrofit/">Retrofit</a>, <a target="_blank" href="https://github.com/FasterXML/jackson">Jackson</a>, <a target="_blank" href="https://github.com/google/auto/tree/master/value">AutoValue</a>, <a target="_blank" href="https://developer.android.com/studio/write/annotations.html">Android Support Annotations</a> and <a target="_blank" href="https://github.com/Raizlabs/DBFlow">DBFlow</a> )</p><br/><p> <img class="img-responsive" src="img/portfolio/bugshaker.png"/>★ <a target="_blank" href="https://github.com/EyeSeeTea/dhis2-android-sdk/tree/development">BugShaker</a> allows your QA team and/or end users to easily submit bug reports by shaking their device. When a shake is detected, the current screen state is captured and the user is prompted to submit a bug report via email/GitHub issue with this screenshot attached. <strong>I added it the feature of creating a GitHub issue after each bug report</strong>.</p><br/><p><img class="img-responsive" src="img/portfolio/dbflow.png"/>★ <a target="_blank" href="https://github.com/Raizlabs/DBFlow">DBFlow</a> is robust, powerful, and very simple ORM android database library with annotation processing.
+ <strong><a target="_blank" href="https://github.com/EyeSeeTea/DBFlow/tree/dbflow-processor">I modified the dbflow annotation processor</a> to generate an in-memory database to ease testing on its version 3.0.1.</strong></p> </p>            <div>
+                <blockquote class="blockquote ">
+                    <p>Arturo was extremely cooperative. He has been part of our team for a few months and I would like to work
+                        with him again in the future if we have the opportunity. I strongly recommend him for Android native
+                        projects.
+                    </p>
+
+                    <footer class="blockquote-footer">
+                        <a href="https://eyeseetea.com/" target="_blank">Ignacio Foche, EyeSeeTea</a>.
+                        <cite title="Nov 2017-Apr 2018">Nov 2017-Apr 2018</cite>
+                    </footer>
+                </blockquote>
+
+            </div>
+
+---
+
+
