@@ -10,6 +10,7 @@ alt: Collage Creator
 project-date: Apr 2018-May 2018
 client: <a href="https://www.swebdevelopment.com/" target="_blank">Sweb development</a>
 category: Native Android(Java)
+app_store_link: https://play.google.com/store/apps/details?id=com.spcculturepark.android&rdid=com.spcculturepark.android
 description: <a href="https://www.swebdevelopment.com/" target="_blank">Sweb development</a> is a software Agency that builds Mobile apps and websites, based in San Antonio, TX. As a contractor, my duties were to develop and integrate a collage creator feature to the already made Android App.<strong><br/><br/<u>I developed the feature using</u></strong><br/> ★ <a href="https://www.pluralsight.com/courses/writing-clean-code-humans" target="_blank">Clean code best practices</a><br/> ★ Fragments <br/> ★  <a target="_blank"https://sites.google.com/a/android.com/tools/tips/lint">Android Lint</a><br/> ★ ConstraintLayout<p> <br/> <div><img src="img/portfolio/sweb_1.png" class="img-responsive img-centered" alt="image-alt"/>
     <img src="img/portfolio/sweb_2.png" class="img-responsive img-centered" alt="image-alt"/><a target="_blank" href="https://play.google.com/store/apps/details?id=com.spcculturepark.android&rdid=com.spcculturepark.android"> <img src="img/portfolio/download_android.png" class="img-responsive img-centered" alt="image-alt"/></a></div>            <div>
                 <blockquote class="blockquote ">

@@ -9,6 +9,7 @@ show_modal_img: 1
 alt: Droitalks
 project-date: May 2017
 client: non-profit
+app_store_link: http://www.droidtalks.pro/
 category: Android(Kotlin), Firebase and Angular
 description: I'm really passionate about learning and improving my developer skills. I consume talks, podcast, and articles from various sources, but with the increase in the amount of data that is created daily related to Android Development, it was getting harder and harder to keep organize properly all that content. So <a href="http://www.droidtalks.pro/">Droitalks</a> was born out of my own need to have a place, where I can collect, categorize, and share Android development resources for future references.<br/>It's composed of two components <a href="https://github.com/Amejia481/DroidTalks">the website</a> and the <a href="https://github.com/Amejia481/DroidTalksAndroid">Android App</a>.<br/><br/><strong><u>Technologies</u></strong><br/> ★ Native Android (Kotlin). <br/> ★ Model View Presenter (MVP). <br/> ★ JVM tests. <br/> ★ UI tests using Espresso <br/> ★ Firebase database <br/><p>Both repositories are available on GitHub <a href="https://github.com/Amejia481/DroidTalksAndroid">Android</a> and <a href="https://github.com/Amejia481/DroidTalks">Website</a> <div>  <img src="img/portfolio/droitalks_mainActivity.png" class="img-responsive img-centered" alt="image-alt"/><img src="img/portfolio/droitalks_resourceDetailsActivity.png" class="img-responsive img-centered" alt="image-alt"/></div>  
 
