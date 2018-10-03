@@ -10,15 +10,28 @@
             <br/>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>I’m a software developer, I live in Dominican Republic, Santo Domingo. I work developing mobile applications, <strong>native Android (Java <i class="fa fa-heart" aria-hidden="true"></i>)  apps</strong> are my specialty, also I've been working on iOS and the web for a long while.</p>
+                    <p>I’m a software developer. Develop <strong>Native Android (Java and Kotlin <i class="fa fa-heart" aria-hidden="true"></i>)  apps</strong> is my specialty, also I have some knowledge of the Cupertino platform (iOS), but to be honest, I'm not an expert at it. Before, getting into the mobile arena, I was a web developer for a long while.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>I am a big fan of <strong>software and technology</strong>. When I not having quality time with <strong>family and friends</strong>. I am having fun coding, assisting to conferences, contributing to open source projects, <strong>learning new stuff and sharing what I have learned <i class="fa fa-heart" aria-hidden="true"></i>. </strong>  </p>
+                    <p>When I am not having quality time with <strong>family and friends</strong>. I am having fun coding, writing tutorials at <a target="_blank" href="https://www.raywenderlich.com/u/amejia481">raywenderlich.com</a>, attending conferences or contributing to open source projects.</p>
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                 <div class="col-lg-8 col-lg-offset-2 text-center">
                    <br/>
-                    <p>I am part of a team of software development professionals called <a href="http://wearecode.net/">[wearecode]</a><p>
                 </div>
+
+                <div class="row" id="talks">
+                    <div class="col-lg-12 text-center">
+                        <h4><u>TALKS</u></h4>
+                        <div  class="text-center">
+                             {% assign talks = (site.talks | sort: 'date') | reverse %}
+                            {% for talk in talks %}
+                                    <p class="talk">-<a target="_blank" href="{{talk.conference_url}}">{{talk.conference_name}}</a> {{talk.conference_location}} {{talk.conference_date}}  <a target="_blank" href="{{talk.presentation_url}}">[{{talk.talk_name}}]</a><p>
+                            {% endfor %}
+                            <p id="previous_talks" class="talk_button"><strong><u>Previous</u></strong></p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>

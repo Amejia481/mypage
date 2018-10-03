@@ -1,15 +1,17 @@
 ---
-title: Wapa TV Android app
+title: DGII Mobile
 layout: default
 modal-id: 3
 date: 2014-07-17
-img: cake.png
+img: dgii_mobile.png
 show_modal_img: 1
-modal_img: wapa_full.JPG
+modal_img: dgii_touch.png
 alt: image-alt
-project-date: October 2015
-client: Rocanrol, Puerto Rico
-category: Android(Java)
-description: This application give you access to the Wapa TV  channel content; video clips and news coverage.<br/><br/>My participation in this project was to coordinate and perform the necessary tasks to meet the needs expressed by Luis Roca, to enhancement the actual application<br/><br/> <a href="https://play.google.com/store/apps/details?id=com.wapa.app">Download in the Play Store</a>
+project-date: Jan 2015
+client: DGII, Domincan Republic
+category: Android(Java) and iOS(Object-C)
+app_store_link: https://play.google.com/store/apps/details?id=gov.dgii.dgiimovil
+description: <p>DGII Mobile is an essential tool for taxpayers in the Dominican Republic. the app allows them to find where and how pay your taxes, additionally, helps them to find useful information related to their taxes day to day operations.</p><p>As an employee of the Directorate General of internal taxes (DGII) D.R, one of my tasks was to develop and maintain the application for both platforms Android and iOS.</p><div class="work_with"><p class="work_with_title">Technologies</p><div class="work_with_body"><p>★ Native development Android(Java)</p><p>★ Native development iOS(Object-c)</p><p>★ C# AND ASP .NET</p><p>★ ORACLE PL/SQL</p></div></div> <div> <div>  <img src="img/portfolio/dgii_mobil_android.png" class="img-responsive img-centered" alt="image-alt"/><a href ="https://play.google.com/store/apps/details?id=gov.dgii.dgiimovil"><img src="img/portfolio/download_android.png" class="img-responsive img-centered" alt="image-alt"/></a> <img src="img/portfolio/dgii_mobil_ios.png" class="img-responsive img-centered" alt="image-alt"/><a href ="https://itunes.apple.com/do/app/dgii-movil/id969596470?l=en&mt=8"><img src="img/portfolio/download_ios.png" class="img-responsive img-centered" alt="image-alt"/></a> </div> </div>
 
 ---
+

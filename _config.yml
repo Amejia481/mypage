@@ -2,9 +2,9 @@
 title: Arturo Mejia
 email: arturomejiamarmol@gmail.com
 url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Android Developer - Mobile Developer"
-meta_author: LastName FirstName
+description: "I am a software developer, I live in Dominican Republic, Santo Domingo. I work developing mobile applications, native Android (Java ) apps are my specialty, also I've been working on iOS and the web for a long while"
+skills: "Android Developer"
+meta_author: Arturo Mejia
 
 # Google webmaster tools
 google_verify:
@@ -28,18 +28,18 @@ social:
     url: http://github.com/Amejia481
   - title: stack-overflow
     url: http://stackoverflow.com/users/5533820/arturo-mejia
+  - title: reddit
+    url:  https://www.reddit.com/user/amejia481/
   - title: twitter
     url: https://twitter.com/arturomejia481
-  - title: youtube
-    url: https://www.youtube.com/channel/UCgndqwYZkqI1mJKwOktz9lQ
-  
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Dominican Republic
-  - line: Santo Domingo, D.N
-
+  - line: Ontario, Canada.  
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+- talks

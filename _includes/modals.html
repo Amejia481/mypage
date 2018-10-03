@@ -16,8 +16,10 @@
                             <hr class="star-primary">
 
                             {% if post.show_modal_img !=0 %}
+                            <a href="{{ post.app_store_link }}" target="_blank">
                                 <img src="img/portfolio/{{ post.modal_img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            {% endif %}
+                        </a>
+                                {% endif %}
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
