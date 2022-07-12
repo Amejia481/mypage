@@ -1,0 +1,9 @@
+---
+conference_name: GDG Toronto Android
+conference_url: https://youtu.be/9UVaCBlos0I
+conference_location: Paytm Canada
+conference_date: August 20th 2019
+presentation_url: https://www.meetup.com/ToAndroidDev/events/263372664/
+talk_name: GeckoView, a painkiller for WebView.
+date: 20/08/2019
+---
